@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://unpkg.com/98.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="snowflake-container"></div>
+<div style="margin: 0 auto;">
+<div class="window" style="position:relative; margin: 15px;">
+    <div class="title-bar" style="background:linear-gradient(90deg,#30473b,#95b7a5);">
+        <div class="title-bar-text">Mail</div>
+        <div class="title-bar-controls">
+            <!--<button aria-label="Minimize"></button>
+            <button aria-label="Maximize"></button>-->
+            <button aria-label="Close"></button>
+        </div>
+    </div>
+    <div class="window-body">
+        <div style="display: flex; flex-direction: row; padding-bottom:20px; justify-content: space-between;">
+            <div>
+            <div class="field-row-stacked" style="width: 200px">
+                <label for="text22">FROM:</label>
+                <input id="text22" type="email" value="3301@tum.de"/>
+            </div>
+            <div class="field-row-stacked" style="width: 200px">
+                <label for="text23">CC:</label>
+                <input id="text23" type="email" value="3301.XmasOffices@gmail.com"/>
+            </div>
+            </div>
+            <div style="display:flex; justify-content: flex-end; align-items: flex-end;">
+                <button onclick="test()">Send</button>
+            </div>
+        </div>
+    </div>
+        <ul class="tree-view">
+            <li><p>Hello again,<br><br>
+
+                Okay, I am in! I find myself in a dark room as I entered the building, wondering if there are people here..  <br><br>
+                oh wait, there is a sign with a <strong>3</strong> on it, pointing up a small stairway... interesting!  <br>  <br>
+                As I walked up the stairs I enter a room with 2 corridors to the side and a big table in the center.  <br>
+                Next to a beautiful work of art, there are 3 magazines on it as well, I wonder who made them..  <br><br>
+                BUT WAIT.. WHAT IS THAT NOISE.. I HEAR SANTA TALKING ?!? HE SEEMS TO BE INDEED HERE!!<br>
+                <br><br>
+                <div id="nothing-here"></div>
+         <br>  <br>  <br>
+                <div class="field-row">
+                    <label for="text17">CODE_2</label>
+                    <input id="text17" type="text" />
+                <button style="padding-left:10px;" onclick="onSubmit()">Submit</button>
+                </div>
+                <div class="field-row">
+                    <label for="text18">CODE_3</label>
+                    <input id="text18" type="text" />
+                    <button style="padding-left:10px;" onclick="onSubmit2()">Submit</button>
+                </div>
+
+                <br>
+                In case you got any questions, feel free to reach me under <br>3301.XmasOffices@gmail.com or call me (maybe).
+                <br><br>
+                Cheers,<br>
+                3301
+            </p></li>
+        </ul>
+    </div>
+</div>
+<!-- fork https://codepen.io/AlbertFeynman/pen/RBBKMe -->
+
+</body>
+<script src="script.js"></script>
+</html>
